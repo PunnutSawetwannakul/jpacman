@@ -66,7 +66,7 @@ public class MapParserTest {
 
         // Keep assertEquals as requested.
         // Replace "Invalid map" with the exact message your MapParser actually throws.
-        assertEquals("Invalid map", thrown.getMessage());
+		assertEquals("Input text lines are not of equal width.", thrown.getMessage());
     }
 }
 
